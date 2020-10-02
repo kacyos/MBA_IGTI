@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Calculadora IMC</title>
+  </head>
+  <body>
+    <h1 class="center">Calculadora de IMC</h1>
+    <form class="center">
+      <label>Altura</label>
+      <input type="number" id="height" min="1" />
+      <span>cm</span>
+      <label>Peso</label>
+      <input type="number" id="weight" min="1" />
+      <span>Kg</span>
+      <button
+        class="waves-effect waves-light btn"
+        type="submit"
+        id="btn-calculate"
+      >
+        Calcular
+      </button>
+    </form>
+    <div class="result center"><p></p></div>
+    <script defer src="./js/script.js"></script>
+  </body>
+</html>
+
+<!--
+  Altura multiplicada por ela mesma: 1,70 x 1,70 = 2,89
+Peso dividido pelo quadrado da altura: 70 / 2,89 = 24,22
+IMC               	Resultado
+Menos do que 18,5	- Abaixo do peso
+Entre 18,5 e 24,9	- Peso normal
+Entre 25 e 29,9	 -- Sobrepeso
+Entre 30 e 34,9	--- Obesidade grau 1
+Entre 35 e 39,9	--- Obesidade grau 2
+Mais do que 40	--- Obesidade grau 3
+-->
