@@ -1,4 +1,4 @@
-## Página destinada ao MBA Desenvolvimento Full Stack do IGTI
+# Página destinada ao MBA Desenvolvimento Full Stack do IGTI
 
 You can use the [editor on GitHub](https://github.com/kacyos/MBA_IGTI/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
