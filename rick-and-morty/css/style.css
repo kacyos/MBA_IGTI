@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  background-color: rgba(26, 25, 25, 0.87);
+}
+h1 {
+  text-align: center;
+  margin: 0 auto 20px auto;
+  border-bottom: 2px solid green;
+  background-color: black;
+}
+.title {
+  height: 200px;
+}
+
+.home {
+  cursor: pointer;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.input-search {
+  outline: none;
+  transition: ease 0.5s;
+  border: 1px solid rgb(0, 122, 31);
+  margin: 4px;
+  padding: 2px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.input-search {
+  width: 25%;
+  background-color: rgba(0, 122, 31, 0.192);
+}
+
+.input-search:focus {
+  transition: ease 0.5s;
+  border: 1px solid rgb(41, 223, 35);
+  background-color: rgba(9, 255, 0, 0.192);
+}
+
+.btn-search {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  margin: auto 5px;
+  color: rgb(0, 122, 31);
+}
+
+.btn-search:hover {
+  color: rgb(71, 148, 66);
+  cursor: pointer;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+.card {
+  border: 1px solid black;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: rgb(4, 231, 61);
+}
+
+.card img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#container ul {
+  padding: 0;
+  margin: 0;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.274);
+}
+
+#container li {
+  list-style: none;
+  padding-bottom: 5px;
+}
+
+.name {
+  font-weight: 700;
+}
+
+#divButtons {
+  display: flex;
+  justify-content: center;
+}
+
+#divButtons button {
+  outline: none;
+  border: 2px solid transparent;
+  width: 90px;
+  height: 30px;
+  margin: 5px 60px 40px 60px;
+  border-radius: 10px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  cursor: pointer;
+  background-color: rgb(4, 231, 61);
+}
+
+#divButtons button:hover {
+  transition: ease 0.5s;
+  background-color: rgb(3, 185, 48);
+  border: 2px solid rgb(0, 116, 29);
+}
+
+.modal-dialog,
+.modal-content,
+.modal-header {
+  border: 0;
+}
+
+.modal-content {
+  border: 1px solid rgb(4, 231, 61);
+}
+
+.modal-header {
+  color: #fff;
+  background-color: black;
+}
+
+h5 {
+  margin-left: 10px;
+}
+
+.modal-Image {
+  width: 200px;
+  border-radius: 15px;
+  margin: 10px auto 10px auto;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0%;
+  background-color: rgb(23, 177, 62);
+}
+
+.modal-body div {
+  background-color: rgba(255, 255, 255, 0.274);
+  width: 100%;
+  border-radius: 4px;
+}
+
+.modal-body div ul {
+  list-style: none;
+  font-weight: 700;
+  text-align: center;
+}
+
+.close {
+  color: rgb(4, 255, 37);
+}
